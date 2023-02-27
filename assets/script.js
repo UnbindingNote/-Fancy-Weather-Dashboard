@@ -1,12 +1,12 @@
 var key = 'baca7fbc2df4424987f83381832b4003';
-var cardTodayBody = $('.cardBodyToday')
-var city = "Detroit"
-var cityHist = [];
-var contHistEl = $('.cityHist');
-
-//moment.js for current time and date
 var date = moment().format('dddd, MMMM Do YYYY');
 var dateTime = moment().format('YYYY-MM-DD HH:MM:SS')
+
+var city = "Detroit"
+var cityHist = [];
+
+var cardTodayBody = $('.cardBodyToday')
+var contHistEl = $('.cityHist');
 var fiveForecastEl = $('.fiveForecast');
 
 //Take the text value of the search and save it to an array
